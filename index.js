@@ -5,7 +5,8 @@ const users = [
   { id: 1, name: "Aarav Sharma", email: "aarav@example.com" },
   { id: 2, name: "Priya Verma", email: "priya@example.com" },
    { id: 3, name: "Vikas Kumar", email: "vikas@example.com" },
-      { id: 4, name: "Muskan", email: "muskan@example.com" }
+      { id: 4, name: "Muskan", email: "muskan@example.com" },
+        { id: 5, name: "Gaurav", email: "gaurav@example.com" }
 ];
 
 const server = http.createServer((req, res) => {
